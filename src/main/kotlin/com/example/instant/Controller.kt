@@ -11,4 +11,9 @@ class Controller {
     fun sample(@RequestBody sample: Sample): Sample {
         return sample
     }
+
+    @PostMapping("/sample2")
+    fun sample2(@RequestBody sample: Sample2): Sample2 {
+        return sample
+    }
 }

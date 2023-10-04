@@ -8,3 +8,8 @@ data class Sample(
     val date: Instant
 )
 
+
+data class Sample2(
+    val date: Instant
+)
+

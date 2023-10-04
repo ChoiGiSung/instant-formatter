@@ -5,3 +5,11 @@ Content-Type: application/json
 {
   "date": "2023-10-10"
 }
+
+###
+POST http://localhost:8080/sample2
+Content-Type: application/json
+
+{
+  "date": "2023-10-10T15:00:00.00+00:00"
+}
